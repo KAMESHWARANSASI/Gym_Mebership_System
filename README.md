@@ -48,27 +48,6 @@ The system includes the following main tables:
 
 ---
 
-## 📘 Example SQL Queries
-
-```sql
--- Get all members
-SELECT * FROM Members;
-
--- Join Members and Payments
-SELECT m.FirstName, m.LastName, p.Amount
-FROM Members m
-JOIN Payments p ON m.MemberID = p.MemberID;
-
--- Create Stored Procedure
-DELIMITER //
-CREATE PROCEDURE GetMemberInfo(IN mem_id INT)
-BEGIN
-    SELECT * FROM Members WHERE MemberID = mem_id;
-END //
-DELIMITER ;
-
-
----
 
 📑 Features Covered in SQL
 
@@ -111,11 +90,35 @@ DELIMITER ;
 
 👨‍💻 Author
 
-Your Name
+kameshwaran
 
---GitHub: [your-github-link]
+--GitHub: https://github.com/KAMESHWARANSASI
 
---Email: yourname@example.com
+--Email:kameshwaransasi@gmail.com
+
+
+## 📘 Example SQL Queries
+
+```sql
+-- Get all members
+SELECT * FROM Members;
+
+-- Join Members and Payments
+SELECT m.FirstName, m.LastName, p.Amount
+FROM Members m
+JOIN Payments p ON m.MemberID = p.MemberID;
+
+-- Create Stored Procedure
+DELIMITER //
+CREATE PROCEDURE GetMemberInfo(IN mem_id INT)
+BEGIN
+    SELECT * FROM Members WHERE MemberID = mem_id;
+END //
+DELIMITER ;
+
+
+---
+
 
 
 
