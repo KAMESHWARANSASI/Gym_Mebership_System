@@ -1,3 +1,4 @@
+
 # 🏋‍♂ Gym Membership System
 
 A MySQL-based Gym Membership System designed to manage member data, trainers, subscriptions, attendance, and payments.
@@ -34,6 +35,9 @@ The system includes the following main tables:
 
 - MySQL 8.x
 - SQL (DDL, DML, Joins, Views, Procedures, Triggers)
+- Excel (for initial data population)
+- Python (for automation and file creation)
+
 ---
 
 ## 🚀 How to Use
@@ -63,6 +67,7 @@ BEGIN
 END //
 DELIMITER ;
 
+
 ---
 
 📑 Features Covered in SQL
@@ -91,21 +96,26 @@ DELIMITER ;
 
 ✅ Subqueries & Nested SELECTs
 
+
+
 ---
 
-Files Included
+📄 Files Included
 
 - GYM_System_datas.sql: Sample data (100 rows)
 - GYM_System_Queries.sql: 50  Full SQL guide with basic and advanced topics
 - GYM_System.sql:data base and table creation
 
 
---
+---
+
 👨‍💻 Author
 
-kameshwaran
+Your Name
 
-GitHub: [your-github-link]
+--GitHub: [your-github-link]
 
-Email:kameshwaransasi@gmail.com
+--Email: yourname@example.com
+
+
 
