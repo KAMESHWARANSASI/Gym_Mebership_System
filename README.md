@@ -62,3 +62,50 @@ BEGIN
     SELECT * FROM Members WHERE MemberID = mem_id;
 END //
 DELIMITER ;
+
+---
+
+📑 Features Covered in SQL
+
+✅ Basic SELECT, WHERE, ORDER BY, LIKE, BETWEEN
+
+✅ JOINs (INNER, LEFT)
+
+✅ Aggregate functions (COUNT, SUM, AVG)
+
+✅ GROUP BY & HAVING
+
+✅ Views
+
+✅ Stored Procedures
+
+✅ Triggers
+
+✅ Transactions
+
+✅ Indexes
+
+✅ Events
+
+✅ User-Defined Functions
+
+✅ Subqueries & Nested SELECTs
+
+---
+
+Files Included
+
+- GYM_System_datas.sql: Sample data (100 rows)
+- GYM_System_Queries.sql: 50  Full SQL guide with basic and advanced topics
+- GYM_System.sql:data base and table creation
+
+
+--
+👨‍💻 Author
+
+kameshwaran
+
+GitHub: [your-github-link]
+
+Email:kameshwaransasi@gmail.com
+
